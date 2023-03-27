@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, lightpink, rgb(248, 145, 162));
+  padding: 50px 0;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.heedpagetex {
+  margin-bottom: 50px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.heedpagetex>p {
+  margin-top: 10px;
+  color: #727272;
+  font-size: 1.3rem;
+}
+
+.textnotebody {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+}
+
+.addnewtex {
+  width: 275px;
+  height: 200px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  margin: 0 20px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.addnewtex:focus {
+  cursor: auto;
+}
+
+.texaree {
+  padding: 20px;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 1.5rem;
+}
+
+.addnewtex i {
+  font-size: 4rem;
+  font-weight: bold;
+  color: rgb(245, 114, 136);
+}
+
+.butt {
+  background-color: rgba(255, 255, 255, 0.596);
+  cursor: pointer;
+}
+
+@media (max-width: 450px) {
+  .addnewtex {
+    width: 100%;
+  }
+}
+
+@media (min-width: 450px) {
+  .addnewtex {
+    width: 40%;
+  }
+}
+
+@media (min-width: 772px) {
+  .addnewtex {
+    width: 25%;
+  }
+}
